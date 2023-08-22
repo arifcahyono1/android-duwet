@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="150dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="1dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_produk"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/produk1" />
+
+        <TextView
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="4dp"
+            android:id="@+id/tv_nama"
+            android:lines="2"
+            android:maxLines="2"
+            android:textStyle="bold"
+            android:ellipsize="marquee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Produk"/>
+
+        <TextView
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tv_harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp.100.000"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/orange"/>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

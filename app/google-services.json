@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "688253575125",
+    "project_id": "duwetapps",
+    "storage_bucket": "duwetapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688253575125:android:336cd0e749a44448eaa75c",
+        "android_client_info": {
+          "package_name": "com.cahyono.tokoonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688253575125-li0j75d8patut50f9gba6slfje3ju2n8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cahyono.tokoonline",
+            "certificate_hash": "231794312c2eda61dd6efc1397df65d0585b98bf"
+          }
+        },
+        {
+          "client_id": "688253575125-qhfucdaft886pumintnp2firaloeup4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCISTxiFsVhR4f7J7FqEMLlU3Y-ZA8S16Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688253575125-qhfucdaft886pumintnp2firaloeup4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
